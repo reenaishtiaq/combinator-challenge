@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.icon{
+    display: inline;
+    color: yellow;
+    padding: 0px 10px;
+}
+
+article{
+    background-color: #000000;
+    padding: 1em 35px;
+    font-size: 3em;
+    margin: 6em 0px;
+}
+
+span{
+    color: #212121;
+}
+
+span:hover ~ span{
+    color: white;
+
+}
+
+span:hover {
+    color: red;
+}
+
+span:hover + span{
+    color: lightpink;
+}
+
